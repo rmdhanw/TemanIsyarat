@@ -1,19 +1,19 @@
-# 🤟 TemanIsyarat - Sistem Pengenalan SIBI (Sistem Isyarat Bahasa Indonesia)
+# TemanIsyarat - Sistem Pengenalan SIBI (Sistem Isyarat Bahasa Indonesia)
 
 **TemanIsyarat** adalah proyek berbasis Machine Learning & Computer Vision yang dirancang untuk mengenalkan dan menerjemahkan bahasa isyarat SIBI (Sistem Isyarat Bahasa Indonesia) secara *real-time* menggunakan **MediaPipe** dan **TensorFlow/Keras**.
 
 ---
 
-## 📌 Fitur Utama
+##  Fitur Utama
 
-- ✋ **Ekstraksi Landmark Tangan (MediaPipe Hands)**: Ekstraksi 21 koordinat landmark 3D (63 fitur x, y, z) yang dinormalisasi secara relatif terhadap pergelangan tangan (wrist).
-- 🧠 **Model Deep Learning (TensorFlow/Keras)**: Model Neural Network teroptimasi untuk mengklasifikasikan abjad bahasa isyarat SIBI (A–Y).
-- ⚡ **Konversi TFLite**: Model yang dikonversi ke format `.tflite` agar efisien dan ringan untuk dijalankan pada perangkat *edge* atau mobile (Android/Flutter).
-- 📹 **Pengujian Real-Time Webcam (OpenCV)**: Pengujian langsung pergerakan tangan dan prediksi abjad melalui kamera web dengan *confidence score*.
+-  **Ekstraksi Landmark Tangan (MediaPipe Hands)**: Ekstraksi 21 koordinat landmark 3D (63 fitur x, y, z) yang dinormalisasi secara relatif terhadap pergelangan tangan (wrist).
+-  **Model Deep Learning (TensorFlow/Keras)**: Model Neural Network teroptimasi untuk mengklasifikasikan abjad bahasa isyarat SIBI (A–Y).
+-  **Konversi TFLite**: Model yang dikonversi ke format `.tflite` agar efisien dan ringan untuk dijalankan pada perangkat *edge* atau mobile (Android/Flutter).
+-  **Pengujian Real-Time Webcam (OpenCV)**: Pengujian langsung pergerakan tangan dan prediksi abjad melalui kamera web dengan *confidence score*.
 
 ---
 
-## 🎥 Demo Video Dokumentasi
+##  Demo Video Dokumentasi
 
 https://github.com/user-attachments/assets/TemanIsyarat%20Dokumentasi.mp4
 
@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/TemanIsyarat%20Dokumentasi.mp4
 
 ---
 
-## 📁 Struktur Direktori Proyek
+##  Struktur Direktori Proyek
 
 ```text
 TemanIsyarat/
@@ -45,7 +45,7 @@ TemanIsyarat/
 
 ---
 
-## 🛠️ Teknologi & Library
+##  Teknologi & Library
 
 - **Python 3.8+**
 - **OpenCV**: Pengolahan citra & pemrosesan stream webcam.
@@ -56,7 +56,7 @@ TemanIsyarat/
 
 ---
 
-## 🚀 Panduan Penggunaan
+##  Panduan Penggunaan
 
 ### 1. Persiapan Environment
 
@@ -112,13 +112,8 @@ python test.py
 
 ---
 
-## 🏷️ Abjad SIBI yang Didukung
+##  Abjad SIBI yang Didukung
 
 Model ini melatih dan mendeteksi abjad alfabet SIBI:
 > `A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`, `I`, `K`, `L`, `M`, `N`, `O`, `P`, `Q`, `R`, `S`, `T`, `U`, `V`, `W`, `X`, `Y`
 
----
-
-## 📄 Lisensi
-
-Proyek ini dibuat untuk tujuan edukasi dan pengembangan teknologi aksesibilitas.
