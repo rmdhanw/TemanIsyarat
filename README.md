@@ -13,10 +13,20 @@
 
 ---
 
+## 🎥 Demo Video Dokumentasi
+
+https://github.com/user-attachments/assets/TemanIsyarat%20Dokumentasi.mp4
+
+<video src="video/TemanIsyarat%20Dokumentasi.mp4" controls width="100%"></video>
+
+---
+
 ## 📁 Struktur Direktori Proyek
 
 ```text
 TemanIsyarat/
+├── video/
+│   └── TemanIsyarat Dokumentasi.mp4  # Video dokumentasi/demo sistem SIBI
 ├── python/
 │   ├── dataset/                      # Folder dataset gambar (diabaikan dari Git)
 │   ├── dataset_sibi_landmarks.csv    # CSV hasil ekstraksi landmark 63 titik
