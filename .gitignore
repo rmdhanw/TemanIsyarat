@@ -1,21 +1,11 @@
-# Ignore Dataset folder
 python/dataset/
 dataset/
-
-# Python Virtual Environment
 .venv/
 venv/
 env/
-
-# Python cache & bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# IDE / Editor config
 .vscode/
 .idea/
-
-# Custom data/model binaries (opsional, sesuaikan jika perlu)
-# *.h5
